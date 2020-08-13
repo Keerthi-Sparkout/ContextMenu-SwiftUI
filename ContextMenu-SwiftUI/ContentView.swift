@@ -42,7 +42,7 @@ struct ContentView: View {
                             // change country setting
                         }) {
                             Text("Clear Chat")
-                            Image(systemName: "clear.fill")
+                            Image(systemName: "clear")
                         }
                         
                         Button(action: {
@@ -50,7 +50,7 @@ struct ContentView: View {
                         }) {
                             Text("Delete Chat")
                             Image(systemName: "trash")
-                                .foregroundColor(Color.red)
+                                .accentColor(.red)
                         }
                 }
             }
